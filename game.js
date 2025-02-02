@@ -52,7 +52,7 @@ function checkAnswer(selectedImg) {
 
         if (currentIndex >= images.length) {
             setTimeout(() => {
-                window.location.href = "kenshie.html"; 
+                window.location.href = "eihsnek.html"; 
             }, 1000);
         } else {
             setTimeout(updateGame, 1000);
