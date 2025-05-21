@@ -1,6 +1,6 @@
 let button = document.getElementById("kenshie").addEventListener('click', function(){
   let user = document.getElementById("user").value.toLowerCase();
-  if(user != "kenshie" && user != "kenshie jee rafinian" && user != "jee" && user != "rafinian"){
+  if(user != "dharyn" && user != "amy"){
     let box = document.getElementById("box");
     box.style.display = "flex";
     let remove = document.getElementById("remove").addEventListener('click', function(){
@@ -8,10 +8,10 @@ let button = document.getElementById("kenshie").addEventListener('click', functi
     box.style.display = "none";
     })
   }
-  else if(user == "kenshie" || user == "kenshie jee rafinian" || user == "jee" || user == "rafinian"){
+  else if(user == "dharyn" || user == "amy"){
     alert(`Hi, ${user} please wait`);
     setTimeout( () => {
-      window.location.href = "main.html";
+      window.location.href = "dharyn.html";
     }, 2000);
   }
   else{
